@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingLeft="@dimen/common_margin_left"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_height_button"
+        android:layout_marginTop="@dimen/login_margin_two_view"
+        android:background="@drawable/border_comment_button"
+        android:gravity="center|left"
+        android:text="JOHN" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_height_button"
+        android:layout_marginTop="@dimen/login_margin_two_view">
+
+        <TextView
+            android:paddingLeft="@dimen/common_margin_left"
+            android:id="@+id/tvPass"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/password"
+            android:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/edChangePass"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tvChange"
+            android:layout_toRightOf="@+id/tvPass"
+            android:background="@drawable/border_comment_button" />
+
+        <TextView
+            android:id="@+id/tvChange"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/change"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_margin_two_view">
+
+        <TextView
+            android:id="@+id/tvCountryCode"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/login_height_button"
+            android:background="@drawable/border_comment_button"
+            android:gravity="center"
+            android:text="+84" />
+
+        <EditText
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_height_button"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tvCountryCode"
+            android:background="@drawable/border_comment_button" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:paddingLeft="@dimen/common_margin_left"
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_height_button"
+        android:layout_marginTop="@dimen/login_margin_two_view"
+        android:background="@drawable/border_comment_button"
+        android:gravity="center|left"
+        android:text="EMAIL" />
+
+    <FrameLayout
+        android:id="@+id/frExchangeHistory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_height_button"
+        android:layout_marginTop="@dimen/login_margin_two_view"
+        android:background="@drawable/border_comment_button">
+
+        <TextView
+            android:paddingLeft="@dimen/common_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center|left"
+            android:text="@string/exchange_history" />
+
+        <ImageView
+            style="@style/icon_arrow_next"
+            android:layout_gravity="center|right" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frRenewal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_height_button"
+        android:background="@drawable/border_comment_button">
+
+        <TextView
+            android:paddingLeft="@dimen/common_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center|left"
+            android:text="@string/renewal" />
+
+        <ImageView
+            style="@style/icon_arrow_next"
+            android:layout_gravity="center|right" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_height_button"
+        android:layout_marginTop="@dimen/login_margin_two_view"
+        android:background="@color/colorLogoutButton">
+
+        <TextView
+            android:id="@+id/tvLogout"
+            style="@style/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/logout" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+</LinearLayout>

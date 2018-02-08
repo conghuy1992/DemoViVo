@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/picture_temp" />
+
+        <LinearLayout
+            android:layout_width="@dimen/login_width_layout"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:layout_marginTop="@dimen/login_margin_two_view"
+                android:gravity="center"
+                android:text="@string/world_intertainment"
+                android:textColor="@color/colorPrimary"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_height_button"
+                android:layout_marginTop="@dimen/login_margin_two_view"
+                android:background="@drawable/border_button">
+
+                <TextView
+                    android:id="@+id/tvExperience"
+                    style="@style/login_button"
+                    android:layout_gravity="center"
+                    android:text="@string/free_experience"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_height_button"
+                android:layout_marginTop="@dimen/login_margin_two_view"
+                android:background="@color/login_button">
+
+                <TextView
+                    android:id="@+id/tvLogin"
+                    style="@style/login_button"
+                    android:layout_gravity="center"
+                    android:text="@string/login"
+                    android:textAllCaps="true" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

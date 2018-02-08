@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="common_margin_left">5dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="menu_height">45dp</dimen>
+    <dimen name="line_height">0.2dp</dimen>
+    <dimen name="movie_height_tv_show">170dp</dimen>
+    <dimen name="tv_show_margin_left">3dp</dimen>
+    <dimen name="login_height_button">45dp</dimen>
+    <dimen name="login_margin_two_view">10dp</dimen>
+    <dimen name="login_width_layout">300dp</dimen>
+    <dimen name="last_news_cover_margin_left_two_view">5dp</dimen>
+    <dimen name="last_news_cover_icon_favorite_like">40dp</dimen>
+    <dimen name="last_news_cover_content_width">150dp</dimen>
+    <dimen name="last_news_cover_content_height">100dp</dimen>
+    <dimen name="last_news_cover_margin_two_view">5dp</dimen>
+    <dimen name="wait_cover_width">250dp</dimen>
+    <dimen name="wait_cover_height">200dp</dimen>
+    <dimen name="wait_cover_margin_left">5dp</dimen>
+    <dimen name="news_fragment_wait_category_adapter_height">80dp</dimen>
+    <dimen name="profile_menu_height">40dp</dimen>
+    <dimen name="profile_cover_height">300dp</dimen>
+    <dimen name="profile_avatar_height">150dp</dimen>
+    <dimen name="profile_exchange_history_height">40dp</dimen>
+    <dimen name="video_height">240dp</dimen>
+    <dimen name="header_avatar_size">35dp</dimen>
+    <dimen name="user_avatar_size">70dp</dimen>
+    <dimen name="cover_height">240dp</dimen>
+    <dimen name="profile_detail_text_package_width">100dp</dimen>
+
+    <dimen name="text_title_app">23sp</dimen>
+    <dimen name="text_title_cover_level_1">18sp</dimen>
+    <dimen name="text_title_cover_level_2">16sp</dimen>
+    <dimen name="text_cine_big">20sp</dimen>
+    <dimen name="text_title_trend">25sp</dimen>
+    <dimen name="comment_title">19sp</dimen>
+    <dimen name="user_name">17sp</dimen>
+    <dimen name="user_comment">15sp</dimen>
+    <dimen name="user_like">14sp</dimen>
+
+
+</resources>

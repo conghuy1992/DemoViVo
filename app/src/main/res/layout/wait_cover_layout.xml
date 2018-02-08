@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/root"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/picture_temp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text_cine"
+            android:id="@+id/tvCine"
+            android:text="CINE" />
+
+        <TextView
+            android:textColor="@color/colorWhite"
+            style="@style/text_title_cover_level_1"
+            android:id="@+id/tvTitle"
+            android:text="TITLE" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/ivLike"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        style="@style/text_username"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="NAME" />
+
+                    <TextView
+                        android:id="@+id/tvMinute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/last_news_cover_margin_left_two_view"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="3 MIN AGO" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                style="@style/icon_favorite"
+                android:id="@+id/ivLike"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/ivShare"
+                android:src="@drawable/ic_favorite_black_24dp" />
+
+            <ImageView
+                style="@style/icon_favorite"
+                android:id="@+id/ivShare"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_link_black_24dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/layoutTrans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

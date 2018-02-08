@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="@dimen/login_width_layout"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/login_button"
+            android:layout_gravity="center"
+            android:text="@string/login"
+            android:textAllCaps="true" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_height_button"
+            android:layout_marginTop="30dp"
+            android:background="@color/login_facebook_background">
+
+            <TextView
+                android:id="@+id/tvFacebook"
+                style="@style/login_button"
+                android:layout_gravity="center"
+                android:text="@string/facebook_account" />
+
+            <TextView
+                style="@style/login_button"
+                android:layout_width="@dimen/login_height_button"
+                android:layout_height="match_parent"
+                android:background="@color/login_facebook_background_level_2"
+                android:text="F" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_height_button"
+            android:layout_marginTop="@dimen/login_margin_two_view"
+            android:background="@color/login_google_background">
+
+            <TextView
+                android:id="@+id/tvGoogle"
+                style="@style/login_button"
+                android:layout_gravity="center"
+                android:text="@string/google_account" />
+
+            <TextView
+                style="@style/login_button"
+                android:layout_width="@dimen/login_height_button"
+                android:layout_height="match_parent"
+                android:background="@color/login_google_background_level_2"
+                android:text="G+" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_height_button"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvOr"
+                android:background="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/tvOr"
+                style="@style/login_button"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/or" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tvOr"
+                android:background="@color/colorWhite" />
+        </RelativeLayout>
+
+        <EditText
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_height_button"
+            android:layout_marginTop="@dimen/login_margin_two_view"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:hint="@string/username" />
+
+        <EditText
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_height_button"
+            android:layout_marginTop="@dimen/login_margin_two_view"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:hint="@string/password" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_height_button"
+            android:layout_marginTop="@dimen/login_margin_two_view"
+            android:background="@color/login_button">
+
+            <TextView
+                android:id="@+id/tvLogin"
+                style="@style/login_button"
+                android:layout_gravity="center"
+                android:text="@string/login"
+                android:textAllCaps="true" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_height_button"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tvFogetPw"
+                style="@style/login_button"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toLeftOf="@+id/tvCenter"
+                android:text="@string/forgot_password"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/tvCenter"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/tvRegister"
+                style="@style/login_button"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/tvCenter"
+                android:text="@string/register_user"
+                android:textAllCaps="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/login_margin_two_view"
+    android:background="@drawable/border_comment_button"
+    android:layout_height="@dimen/login_height_button">
+
+    <TextView
+        android:id="@+id/tvComment"
+        style="@style/login_button"
+        android:paddingLeft="10dp"
+        android:textSize="@dimen/user_name"
+        android:gravity="center|left"
+        android:text="@string/write_comment"
+        android:textColor="@color/colorGray" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center|right"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_send_black_24dp" />
+</FrameLayout>

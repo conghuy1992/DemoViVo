@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/login_height_button"
+    android:background="@drawable/border_comment_button">
+
+    <EditText
+        android:id="@+id/edComment"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:gravity="center|left"
+        android:hint="@string/write_comment"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/user_name" />
+
+    <ImageView
+        android:id="@+id/ivSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="10dp"
+        android:src="@drawable/ic_send_black_24dp" />
+</FrameLayout>

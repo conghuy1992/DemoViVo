@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0ea1eb</color>
+    <color name="colorPrimaryDark">#0ea1eb</color>
+    <color name="colorAccent">#0ea1eb</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorCommentBox">#f2eded</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorPink">#e23e57</color>
+    <color name="tab_background_selected">#e23e57</color>
+    <color name="tab_background_unselected">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_tablayout">#000000</color>
+    <color name="colorDevice">#ebebeb</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGray">#7b7878</color>
+    <color name="colorTag">#ebebeb</color>
+    <color name="color_text_profile_page">#898989</color>
+    <color name="color_background_time">#B3000000</color>
+    <color name="colorSub">#ecd9da</color>
+    <color name="gray">#606060</color>
+    <color name="line_author_list">#d1d1d1</color>
+    <color name="border_author_list">#fae500</color>
+    <color name="colorNotification">#00ad7c</color>
+    <color name="colorBackgroundTag">#f8f8f8</color>
+    <color name="color_title_text_login_page">#88304e</color>
+    <color name="highlight_tab_select_false">#ebebeb</color>
+    <color name="highlight_background_list_menu_tab">#f7f7f7</color>
+    <color name="login_facebook_background">#3b5996</color>
+    <color name="login_facebook_background_level_2">#355087</color>
+    <color name="login_google_background">#d14636</color>
+    <color name="login_google_background_level_2">#bd4131</color>
+    <color name="login_button">#24c1e0</color>
+    <color name="cine_background">#BF000000</color>
+    <color name="textPackage">#faa00f</color>
+    <color name="colorLogoutButton">#fa575a</color>
+
+</resources>
