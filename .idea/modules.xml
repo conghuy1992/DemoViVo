@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VivoMobile.iml" filepath="$PROJECT_DIR$/VivoMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViVo.iml" filepath="$PROJECT_DIR$/ViVo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
